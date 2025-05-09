@@ -1,0 +1,9 @@
+{
+    "[csharp]": {
+      "editor.defaultFormatter": "ms-dotnettools.csharp",
+      "editor.formatOnSave": true
+    },
+    "editor.rulers": [120],
+    "editor.wordWrapColumn": 120
+  }
+  
