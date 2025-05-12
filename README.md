@@ -21,7 +21,7 @@ Application-specific use cases and orchestration logic.
 
 CLI entry point to demonstrate functionality.
 
-### `tests/DepthCharts.Tests`
+### `src/DepthCharts.Tests`
 
 Unit tests for domain logic and use cases.
 
