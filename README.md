@@ -21,7 +21,7 @@ Application-specific use cases and orchestration logic.
 
 CLI entry point to demonstrate functionality.
 
-### `tests/DepthCharts.Tests`
+### `src/DepthCharts.Tests`
 
 Unit tests for domain logic and use cases.
 
@@ -32,6 +32,10 @@ To build and run the project from the command line:
 ```bash
 dotnet build
 dotnet run --project src/DepthCharts.ConsoleApp
+
+# which is alternatively included in this script:
+./runapp.sh 
+
 ```
 
 This runs the sample console application, which demonstrates all required use cases (adding/removing players, retrieving the depth chart, etc.).
@@ -49,6 +53,12 @@ Automated tests are written using [xUnit](https://xunit.net/) and cover all requ
 You can run the full test suite using:
 
 ```bash
+dotnet test src/DepthCharts.Tests/DepthCharts.Tests.csproj 
+
+# which is alternatively included in this script:
+./runtests.sh 
+
+# .. which may be launched in watch mode during dev
 ./runtests.sh --watch --verbosity normal
 ```
 

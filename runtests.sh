@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Path to test project
-PROJECT_DIR="tests/DepthCharts.Tests"
+PROJECT_DIR="src/DepthCharts.Tests"
 PROJECT_NAME="DepthCharts.Tests.csproj"
 
 if [[ "$1" == "--watch" ]]; then

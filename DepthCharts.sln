@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthCharts.ConsoleApp", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthCharts.Domain", "src\DepthCharts.Domain\DepthCharts.Domain.csproj", "{48D6556A-D5D1-4A37-9FD4-66F1E277EACB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthCharts.Tests", "src\DepthCharts.Tests\DepthCharts.Tests.csproj", "{9F428EAE-5F3D-4260-9BD7-00BBB3048698}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,10 +34,15 @@ Global
 		{48D6556A-D5D1-4A37-9FD4-66F1E277EACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48D6556A-D5D1-4A37-9FD4-66F1E277EACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48D6556A-D5D1-4A37-9FD4-66F1E277EACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F428EAE-5F3D-4260-9BD7-00BBB3048698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F428EAE-5F3D-4260-9BD7-00BBB3048698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F428EAE-5F3D-4260-9BD7-00BBB3048698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F428EAE-5F3D-4260-9BD7-00BBB3048698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EFD3F9FF-01EB-405E-B9B6-C009571F0C31} = {80E9719D-8CA9-48F5-9F88-F016D13AF5FD}
 		{BB96310F-1756-4F7E-A8A9-37DFD7287FCD} = {80E9719D-8CA9-48F5-9F88-F016D13AF5FD}
 		{48D6556A-D5D1-4A37-9FD4-66F1E277EACB} = {80E9719D-8CA9-48F5-9F88-F016D13AF5FD}
+		{9F428EAE-5F3D-4260-9BD7-00BBB3048698} = {80E9719D-8CA9-48F5-9F88-F016D13AF5FD}
 	EndGlobalSection
 EndGlobal
